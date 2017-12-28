@@ -1,4 +1,5 @@
 import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
 import Project from './Project.jsx';
 
 export default class Board extends React.Component {
@@ -35,7 +36,6 @@ export default class Board extends React.Component {
 
   updateProject(newValues, i) {
     let arr = this.state.projects;
-    console.log(arr);
     arr[i].title = newValues.title;
     arr[i].ipType = newValues.ipType;
     arr[i].refNumber = newValues.refNumber;
@@ -43,7 +43,6 @@ export default class Board extends React.Component {
     arr[i].inventor = newValues.inventor;
     arr[i].description = newValues.description;
     arr[i].lastModified = newValues.lastModified;
-    console.log(arr);
     this.setState({ projects: arr });
   }
 
@@ -56,11 +55,13 @@ export default class Board extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="text-center top-header">
-          <h1>Projects</h1>
+        <div className="top-header">
+          <h1 className="col-md-6">Projects</h1>
+          <button type="button" onClick={this.add} className="col-sm-6 btn btn-primary create-button">+ Create New</button>
         </div>
-        {this.state.projects.map(this.eachProject)}
-        <button type="button" onClick={this.add} className="btn btn-primary create-button">+ Create New</button>
+        <div className="well">
+          {this.state.projects.map(this.eachProject)}
+        </div>
       </div>
     );
   }

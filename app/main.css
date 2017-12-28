@@ -1,11 +1,11 @@
 .top-header {
-	margin-top: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 8%;
+    margin-top: 2%;
 }
 
 .create-button {
-	margin-top: 2%;
-    float: right;
+	width: 18%;
+	float: right;
 }
 
 .modified-date {
