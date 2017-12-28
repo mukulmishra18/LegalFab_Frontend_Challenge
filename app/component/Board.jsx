@@ -1,5 +1,4 @@
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
 import Project from './Project.jsx';
 
 export default class Board extends React.Component {
