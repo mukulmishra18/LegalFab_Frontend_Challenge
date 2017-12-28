@@ -1,9 +1,6 @@
 import React from 'react';
+import Board from './Board.jsx';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <h1>Hello World!!!</h1>
-    );
-  }
-}
+const App = () => <Board />;
+
+export default App;

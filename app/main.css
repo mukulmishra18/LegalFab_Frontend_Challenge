@@ -1,0 +1,23 @@
+.top-header {
+	margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.create-button {
+	margin-top: 2%;
+    float: right;
+}
+
+.modified-date {
+	font-size: 14px;
+    color: #7d8c75;
+}
+
+.form-label {
+	margin-left: 12%;
+}
+
+.submit {
+	margin-left: 32%;
+	width: 20%;
+}
