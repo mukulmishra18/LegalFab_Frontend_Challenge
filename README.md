@@ -1,5 +1,5 @@
-# LegalFab_Frontend_Challenge
-LegalFab frontend developer coding challenge.
+# Manager
+Project Management app using React.js
 
 A simple project management app to manage projects. User can add new project or remove/edit existing one.
 
@@ -14,8 +14,8 @@ A simple project management app to manage projects. User can add new project or 
 
 To get a local version of the current code, clone it using git:
 
-	$ git clone https://github.com/mukulmishra18/LegalFab_Frontend_Challenge.git
-	$ cd LegalFab_Frontend_Challenge
+	$ git clone https://github.com/mukulmishra18/Manager.git
+	$ cd Manager
 
 Next, install the dependencies and dev-dependencies using:
 
