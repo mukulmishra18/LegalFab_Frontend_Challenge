@@ -1,21 +1,21 @@
 {
-  "name": "legalfab_frontend_challenge",
+  "name": "manager",
   "version": "1.0.0",
-  "description": "LegalFab frontend developer coding challenge",
+  "description": "Project management app using react.js",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mukulmishra18/LegalFab_Frontend_Challenge.git"
+    "url": "git+https://github.com/mukulmishra18/Manager.git"
   },
   "author": "Mukul Kumar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mukulmishra18/LegalFab_Frontend_Challenge/issues"
+    "url": "https://github.com/mukulmishra18/Manager/issues"
   },
-  "homepage": "https://github.com/mukulmishra18/LegalFab_Frontend_Challenge#readme",
+  "homepage": "https://github.com/mukulmishra18/Manager#readme",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
